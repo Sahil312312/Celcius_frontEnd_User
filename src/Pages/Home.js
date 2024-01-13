@@ -16,7 +16,7 @@ function Home() {
             <li>About Us <div className="under"></div></li>
             <li>FAQ <div className="under"></div></li>
             <li>Celsius2k24 <div className="under"></div></li>
-            <li>hee</li>
+            
             </div>
             
         </ul>
