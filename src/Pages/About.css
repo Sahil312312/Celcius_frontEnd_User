@@ -1,0 +1,20 @@
+.middle-container-About{
+    display: flex;
+    flex-direction: row;
+}
+.middle-container-left-heading{
+    color: aliceblue;
+    font-size: 50px;
+    color:aliceblue;
+}
+.middle-left-container-About{
+    margin-left: 2.5vw;
+    max-width: 50%;
+}
+.middle-left-para{
+    color: aliceblue;
+    
+}
+.Apart{
+    text-shadow: 0 0 5px #ff0004, 0 0 10px #ff0000, 0 0 15px #ff0000;
+}
