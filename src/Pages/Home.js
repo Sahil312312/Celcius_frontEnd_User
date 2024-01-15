@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
-import Img from "../celsius white with coloured.png"
-import Video from "../fire video.mp4"
+import Img from "../i/celsius white with coloured.png"
+import Form from "../Components/SimpleForm"
 function Home() {
   return (
     <div>
@@ -22,20 +22,18 @@ function Home() {
         </ul>
       </nav>
 
-       <div className="block2">
+        <div className="block2">
             <div className="rise-line">
                 <h1 className='temprature-line'>Let The Temprature <span>Rise</span></h1>
-            </div>video-container
+            </div>
 
-            <div className="video-part">
-            <h1>hello </h1>
-            <div className="">
-            <video controls width="50%" height="auto">
-              <source src={Video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <div className="Login-Form">
+                 <Form/>
             </div>
-            </div>
+       </div>
+
+       <div className="address">
+        <h3>MITS GWALIOR <span className='date'> ,16-18 FEB 2024</span></h3>
        </div>
         
     </div>

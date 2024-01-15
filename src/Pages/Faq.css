@@ -63,50 +63,20 @@ img{
     cursor: pointer;
     
 }
-
-
-/* Add these styles to your page1.css file */
-
-.block2 {
-    /* padding-top: 15vh; */
-    position: relative;
+.middle-container{
+    color: white;
+    text-align: center;
+}
+.Faq-question{
     display: flex;
     flex-direction: row;
-    width: 50vw;
-  }
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30vw;
+    margin-left: 30vw;
+}
+.questions{
+    cursor: pointer;
+    padding: 10px;
+}
 
-  @media (max-width:50vw) {
-    .block2 {
-      flex-wrap: wrap;
-    }
-  
-    .temprature-line {
-      font-size: 60px; /* Adjust font size for smaller screens */
-      margin-left: 0; /* Reset left margin */
-      text-align: center; /* Center text on smaller screens */
-    }
-  
-    img {
-      height: auto; /* Make sure the image is responsive */
-      width: 70%; /* Adjust image width for smaller screens */
-      margin-top: 10px; /* Add some space between text and image on smaller screens */
-    }
-  }
-
-  
-  .rise-line {
-    position: relative;
-  }
- .video-part{
-    margin-right: 0px;
-    height: 25px;
-    width: 25px;
- }
- .address{
-    margin-left: 2.5vw;
-    color: aliceblue;
- }
- .date{
-    color: rgb(74, 230, 94);
-    font-weight: 400;
- }
