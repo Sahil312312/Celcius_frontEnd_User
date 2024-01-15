@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(19, 12, 39);
+}
+
+.nav-head {
+    
+    width: 100vw;
+    height: 15vh;
+    margin-top: 0px;
+    color: aliceblue;
+    /* position:fixed; */
+}
+
+.nav-class {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.list-item-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30vw;
+    align-items: center;
+}
+
+.list-item-nav li {
+    margin-right: 50px; /* Adjust this value to set the space between list items */
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s; /* Smooth transition for color change */
+    font-size: medium;
+}
+
+.list-item-nav li:hover {
+    color: brown;   
+}
+
+.under{
+    background-color: brown;
+    width: 2vw;
+}
+
+.temprature-line {
+    font-size: 90px;
+    color: aliceblue;
+    margin-left: 2.5vw;
+}
+span{
+    color: red;
+}
+
+img{
+    height: 12VH;
+    width: 4vw;
+}
+.logo-span{
+    color: aliceblue;
+    font-size:x-large;
+}
+.LOGO{
+    cursor: pointer;
+    
+}

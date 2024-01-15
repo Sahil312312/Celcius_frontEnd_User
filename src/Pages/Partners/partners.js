@@ -1,11 +1,12 @@
 import React from "react";
 import "./partners.css";
 import image from "./../../i/sponsor.png";
+import Navbar from "../../Components/Header/Navbar";
 
 const partners = () => {
   return (
     <div className="partnerContainer">
-      <div className="PartnerHeader">{/* <h1>Header</h1> */}</div>
+      <div className="PartnerHeader"><Navbar/></div>
 
       <div className="partnerMainContainer">
         <div className="partnerTopHeading">Partners</div>

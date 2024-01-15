@@ -97,14 +97,14 @@
   margin-top: 40px;
   justify-content: space-between;
   padding: 20px;
-  gap: 40px;
+  gap: 5vw;
   flex-wrap: wrap;
   width: 80vw;
 }
 
 .eventSponsers {
   max-height: 12vw;
-  max-width: 12vw;
+  max-width: auto;
   border-radius: 100%;
   border: 0.5px solid rgba(251, 251, 251, 0.125);
 }
