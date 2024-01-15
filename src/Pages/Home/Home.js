@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
-import Form from "../Components/SimpleForm"
-import Navbar from '../Components/Header/Navbar'
+import Form from "../../Components/SimpleForm"
+import Navbar from '../../Components/Header/Navbar'
 function Home() {
   return (
     <div>

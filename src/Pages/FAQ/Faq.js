@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Components/Header/Navbar'
+import Navbar from '../../Components/Header/Navbar'
 import "./Faq.css"
 
 function Faq() {

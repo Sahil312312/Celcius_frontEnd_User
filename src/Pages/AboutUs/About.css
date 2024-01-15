@@ -13,8 +13,10 @@
 }
 .middle-left-para{
     color: aliceblue;
+    justify-content: space-around;
     
 }
 .Apart{
-    text-shadow: 0 0 5px #ff0004, 0 0 10px #ff0000, 0 0 15px #ff0000;
+    text-shadow: 0 0 5px #ff0004, 0 0 8px #fb0000, 0 0 10px #ff0000;
+    color: aliceblue;
 }
