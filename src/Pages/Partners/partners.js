@@ -1,5 +1,6 @@
 import React from "react";
 import "./partners.css";
+import image from "./../../i/sponsor.png";
 
 const partners = () => {
   return (
@@ -25,7 +26,73 @@ const partners = () => {
               <div className="MixCoSponserContent">Sahil</div>
             </span>
           </div>
-          <div className="eventSponser sponsor">Sahil</div>
+          <div className="MixCoSponser">
+            <span className="CoSponser sponsor MixCoSponserBox">
+              <div className="MixCoSponserHeading">fashion Partner</div>
+              <div className="MixCoSponserContent">Harsh</div>
+            </span>
+            <span className="AssociaeCoSpoanser sponsor MixCoSponserBox">
+              <div className="MixCoSponserHeading">Social Media Partner</div>
+              <div className="MixCoSponserContent">Sahil</div>
+            </span>
+          </div>
+
+          <div className="MixEventSponser sponsor">
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+              <div className="eventSponsorName">SpiddyTheDon</div>
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+            <div className="eventSponsor">
+              <img src={image} alt="logo" className="eventSponsers"></img>
+                            <div className="eventSponsorName">SpiddyTheDon</div>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>

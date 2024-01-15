@@ -1,112 +1,104 @@
-body {
-    background-color: rgb(19, 12, 39);
-}
-
 .nav-head {
-    
-    width: 100vw;
-    height: 15vh;
-    margin-top: 0px;
-    color: aliceblue;
-    /* position:fixed; */
+  width: 100vw;
+  height: 15vh;
+  margin-top: 0px;
+  color: aliceblue;
+  /* position:fixed; */
 }
 
 .nav-class {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
 }
 
 .list-item-nav {
-    display: flex;
-    flex-direction: row;
-    padding-left: 30vw;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30vw;
+  align-items: center;
 }
 
 .list-item-nav li {
-    margin-right: 50px; /* Adjust this value to set the space between list items */
-    color: white;
-    cursor: pointer;
-    transition: color 0.3s; /* Smooth transition for color change */
-    font-size: medium;
+  margin-right: 50px; /* Adjust this value to set the space between list items */
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth transition for color change */
+  font-size: medium;
 }
 
 .list-item-nav li:hover {
-    color: brown;   
+  color: brown;
 }
 
-.under{
-    background-color: brown;
-    width: 2vw;
+.under {
+  background-color: brown;
+  width: 2vw;
 }
 
 .temprature-line {
-    font-size: 90px;
-    color: aliceblue;
-    margin-left: 2.5vw;
+  font-size: 90px;
+  color: aliceblue;
+  margin-left: 2.5vw;
 }
-span{
-    color: red;
-}
-
-img{
-    height: 12VH;
-    width: 4vw;
-}
-.logo-span{
-    color: aliceblue;
-    font-size:x-large;
-}
-.LOGO{
-    cursor: pointer;
-    
+span {
+  color: red;
 }
 
+img {
+  height: 12vh;
+  width: 4vw;
+}
+.logo-span {
+  color: aliceblue;
+  font-size: x-large;
+}
+.LOGO {
+  cursor: pointer;
+}
 
 /* Add these styles to your page1.css file */
 
 .block2 {
-    /* padding-top: 15vh; */
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 50vw;
+  /* padding-top: 15vh; */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+}
+
+@media (max-width: 50vw) {
+  .block2 {
+    flex-wrap: wrap;
   }
 
-  @media (max-width:50vw) {
-    .block2 {
-      flex-wrap: wrap;
-    }
-  
-    .temprature-line {
-      font-size: 60px; /* Adjust font size for smaller screens */
-      margin-left: 0; /* Reset left margin */
-      text-align: center; /* Center text on smaller screens */
-    }
-  
-    img {
-      height: auto; /* Make sure the image is responsive */
-      width: 70%; /* Adjust image width for smaller screens */
-      margin-top: 10px; /* Add some space between text and image on smaller screens */
-    }
+  .temprature-line {
+    font-size: 60px; /* Adjust font size for smaller screens */
+    margin-left: 0; /* Reset left margin */
+    text-align: center; /* Center text on smaller screens */
   }
 
-  
-  .rise-line {
-    position: relative;
+  img {
+    height: auto; /* Make sure the image is responsive */
+    width: 70%; /* Adjust image width for smaller screens */
+    margin-top: 10px; /* Add some space between text and image on smaller screens */
   }
- .video-part{
-    margin-right: 0px;
-    height: 25px;
-    width: 25px;
- }
- .address{
-    margin-left: 2.5vw;
-    color: aliceblue;
- }
- .date{
-    color: rgb(74, 230, 94);
-    font-weight: 400;
- }
+}
+
+.rise-line {
+  position: relative;
+}
+.video-part {
+  margin-right: 0px;
+  height: 25px;
+  width: 25px;
+}
+.address {
+  margin-left: 2.5vw;
+  color: aliceblue;
+}
+.date {
+  color: rgb(74, 230, 94);
+  font-weight: 400;
+}

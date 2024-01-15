@@ -4,6 +4,7 @@
   width: 100vw;
   align-items: center;
   gap: 10px;
+  margin: 0px !important;
 }
 
 .partnerMidContainer {
@@ -66,10 +67,10 @@
   border-bottom-left-radius: 5px;
   border-top-left-radius: 20px;
   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .MixCoSponser {
@@ -81,12 +82,42 @@
   justify-content: space-between;
   padding: 10px;
 }
-.MixCoSponserHeading{
-        background-color: #fff;
-
+.MixCoSponserHeading {
+  background-color: #fff;
 }
 
-.MixCoSponserContent{
-    background-color: #fff;
-    font-size: 25px;
+.MixCoSponserContent {
+  background-color: #fff;
+  font-size: 25px;
+}
+
+.MixEventSponser {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.eventSponsers {
+  max-height: 12vw;
+  max-width: 12vw;
+  border-radius: 100%;
+  border: 0.5px solid rgba(251, 251, 251, 0.125);
+}
+
+.eventSponsor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.eventSponsorName {
+  color: #fff;
+  font-size: 20px;
 }
