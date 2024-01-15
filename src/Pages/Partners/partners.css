@@ -1,0 +1,92 @@
+.partnerMainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  gap: 10px;
+}
+
+.partnerMidContainer {
+  margin-top: 30px;
+}
+
+.partnerTopHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 33, 92);
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px;
+  width: 80vw;
+  border-radius: 5px;
+}
+
+.sponsor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d0000;
+  font-weight: 500;
+}
+
+.TitleSponsor {
+  background-color: #fff;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-end-end-radius: 20px;
+  border-start-end-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 20px;
+}
+
+.TitleSponsorContent {
+  background-color: #fff;
+  font-size: 30px;
+}
+
+.TitleSponsorHeading {
+  background-color: #fff;
+  align-items: flex-start;
+}
+
+.CoSponser,
+.AssociaeCoSpoanser {
+  width: 32vw;
+  color: black;
+  background-color: #fff;
+  padding: 15px;
+  border-end-end-radius: 20px;
+  border-start-end-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 20px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.MixCoSponser {
+  width: 80vw;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.MixCoSponserHeading{
+        background-color: #fff;
+
+}
+
+.MixCoSponserContent{
+    background-color: #fff;
+    font-size: 25px;
+}
