@@ -94,7 +94,7 @@
 .MixEventSponser {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   justify-content: space-between;
   padding: 20px;
   gap: 40px;
@@ -121,3 +121,20 @@
   color: #fff;
   font-size: 20px;
 }
+
+.EventSponsorHeading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 33, 92);
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px;
+  width: 80vw;
+  border-radius: 5px;
+  margin-top: 40px;
+
+}
+

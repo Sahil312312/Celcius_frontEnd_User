@@ -9,7 +9,6 @@ const partners = () => {
 
       <div className="partnerMainContainer">
         <div className="partnerTopHeading">Partners</div>
-
         <div className="partnerMidContainer">
           <div className="TitleSponsor sponsor">
             <div className="TitleSponsorHeading">Title Sponsors</div>
@@ -26,6 +25,7 @@ const partners = () => {
               <div className="MixCoSponserContent">Sahil</div>
             </span>
           </div>
+          
           <div className="MixCoSponser">
             <span className="CoSponser sponsor MixCoSponserBox">
               <div className="MixCoSponserHeading">fashion Partner</div>
@@ -36,6 +36,9 @@ const partners = () => {
               <div className="MixCoSponserContent">Sahil</div>
             </span>
           </div>
+
+        <div className="EventSponsorHeading">Event Partners</div>
+
 
           <div className="MixEventSponser sponsor">
             <div className="eventSponsor">
