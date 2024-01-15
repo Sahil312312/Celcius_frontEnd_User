@@ -9,7 +9,6 @@ function Schedule() {
       
        <Navbar/>
        <div className="middle-container-Schedule">
-       
        </div>
 
     </div>

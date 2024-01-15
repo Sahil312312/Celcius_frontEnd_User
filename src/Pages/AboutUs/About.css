@@ -17,6 +17,7 @@
     
 }
 .Apart{
-    text-shadow: 0 0 5px #ff0004, 0 0 8px #fb0000, 0 0 10px #ff0000;
-    color: aliceblue;
+    background-clip: text;
+  color: transparent; /* Make the original text color transparent */
+  background-image: linear-gradient(to right, #ff00bb, #00eeff);
 }

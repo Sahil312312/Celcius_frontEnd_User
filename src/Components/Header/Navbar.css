@@ -54,6 +54,8 @@ span{
 img{
     height: 12VH;
     width: 4vw;
+    min-height: 12vh;
+    min-width: 4vw;
 }
 .logo-span{
     color: aliceblue;
