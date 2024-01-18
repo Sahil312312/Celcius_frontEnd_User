@@ -1,8 +1,7 @@
 import React from 'react'
-import "./Home.css"
-import Img from "../celsius white with coloured.png"
-import Video from "../fire video.mp4"
-function Home() {
+import "./Navbar.css"
+import Img from "../../i/celsius white with coloured.png"
+function Navbar() {
   return (
     <div>
       <nav className='nav-head'>
@@ -21,25 +20,8 @@ function Home() {
             
         </ul>
       </nav>
-
-       <div className="block2">
-            <div className="rise-line">
-                <h1 className='temprature-line'>Let The Temprature <span>Rise</span></h1>
-            </div>video-container
-
-            <div className="video-part">
-            <h1>hello </h1>
-            <div className="">
-            <video controls width="50%" height="auto">
-              <source src={Video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            </div>
-            </div>
-       </div>
-        
     </div>
   )
 }
 
-export default Home
+export default Navbar

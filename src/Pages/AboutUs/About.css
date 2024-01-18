@@ -1,0 +1,23 @@
+.middle-container-About{
+    display: flex;
+    flex-direction: row;
+}
+.middle-container-left-heading{
+    color: aliceblue;
+    font-size: 50px;
+    color:aliceblue;
+}
+.middle-left-container-About{
+    margin-left: 2.5vw;
+    max-width: 50%;
+}
+.middle-left-para{
+    color: aliceblue;
+    justify-content: space-around;
+    
+}
+.Apart{
+    background-clip: text;
+  color: transparent; /* Make the original text color transparent */
+  background-image: linear-gradient(to right, #ff00bb, #00eeff);
+}
