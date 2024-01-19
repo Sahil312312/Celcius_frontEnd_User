@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './loginpage.css'; // Make sure to adjust the path based on your project structure
+import './Loginpage.css'; // Make sure to adjust the path based on your project structure
 
 const App = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -10,8 +10,7 @@ const App = () => {
 
   return (
     <div className="main">
-      <input type="checkbox" className="chk" checked={isChecked} onChange={handleCheckboxChange} aria-hidden="true" />
-
+      <input type="checkbox" id="chk"  hidden />
       <div className={`signup ${isChecked ? 'slide-up' : ''}`}>
         <form>
           <label htmlFor="chk" aria-hidden="true">
@@ -28,7 +27,7 @@ const App = () => {
       <div className={`login ${isChecked ? 'slide-down' : ''}`}>
         <form>
           <label htmlFor="chk" aria-hidden="true">
-            <u>Login Here</u>
+            <u onClick={handleCheckboxChange}>Login Here</u>
           </label>
           <input type="email" name="email" placeholder="Email" required="" />
           <input type="password" name="pswd" placeholder="Password" required="" />

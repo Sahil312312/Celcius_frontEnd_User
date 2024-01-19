@@ -17,7 +17,7 @@ body{
 	border-radius: 10px;
 	box-shadow: 8px 8px 40px #c32525;
 }
-.chk{
+#chk{
 	display: none;
 }
 .signup{
@@ -68,7 +68,7 @@ button:hover{
 	background: #70ab30;
 }
 .login{
-	height: 500px;
+	height: 100vh;
 	background: #eee;
 	border-radius: 50% / 10%;
 	transform: translateY(-180px);
