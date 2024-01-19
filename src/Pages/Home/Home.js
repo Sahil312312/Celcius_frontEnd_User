@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Home.css"
-import Form from "../../Components/SimpleForm"
+// import Form from "../../Components/SimpleForm"
 import Navbar from '../../Components/Header/Navbar'
+import Loginpage from '../../Components/login/Loginpage'
+
+
 function Home() {
   return (
     <div>
@@ -9,11 +12,11 @@ function Home() {
 
         <div className="block2">
             <div className="rise-line">
-                <h1 className='temprature-line'>Let The Temprature <span>Rise</span></h1>
+                <h1 className='temprature-line'>Let The Temperature <span>Rise !</span></h1>
             </div>
 
             <div className="Login-Form">
-                 <Form/>
+                 <Loginpage/>
             </div>
        </div>
 

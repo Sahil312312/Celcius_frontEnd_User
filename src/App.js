@@ -6,7 +6,7 @@ import About from "./Pages/AboutUs/About"
 import Schedule from './Pages/Schedule/Schedule';
 import Humans from './Pages/Humans/Humans';
 import { Routes, Route } from "react-router-dom";
-
+import Login from './Components/login/Loginpage';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
 
 
     </Routes>
+    
     </>
   );
 }
