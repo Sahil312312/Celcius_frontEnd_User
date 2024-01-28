@@ -66,6 +66,7 @@ span {
   display: flex;
   flex-direction: row;
   width: 50vw;
+  justify-content:space-between;
 }
 
 @media (max-width: 50vw) {
@@ -101,4 +102,9 @@ span {
 .date {
   color: rgb(74, 230, 94);
   font-weight: 400;
+}
+
+.Login-Form{
+  margin-left: 20vw;
+  margin-top: 10%;
 }
