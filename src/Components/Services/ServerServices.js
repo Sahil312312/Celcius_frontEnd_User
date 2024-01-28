@@ -28,4 +28,5 @@ const postData=async(URL,body)=>{
       return null
    }
   }
+  //...
 export {ServerURL,getData,postData}
