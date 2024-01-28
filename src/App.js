@@ -7,7 +7,7 @@ import Schedule from "./Pages/Schedule/Schedule";
 import Humans from "./Pages/Humans/Humans";
 import { Routes, Route } from "react-router-dom";
 import Login from "./Components/Login/Loginpage";
-import Otpp from "./Components/OTP/Otpp";
+// import Otpp from "./Components/OTP/Otpp";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/partners" element={<Partners />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/humans" element={<Humans />} />
-        <Route path="/otppage" element={<Otpp/>} />
+        {/* <Route path="/otppage" element={<Otpp/>} /> */}
 
       </Routes>
     </>
