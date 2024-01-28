@@ -9,7 +9,7 @@ function Home() {
 
         <div className="block2">
             <div className="rise-line">
-                <h1 className='temprature-line'>Let The Temprature <span>Rise</span></h1>
+                <h1 className='temprature-line'>Let The Temprature <span className='rise-word'>Rise</span></h1>
             </div>
 
             <div className="Login-Form">

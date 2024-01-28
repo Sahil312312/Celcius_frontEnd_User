@@ -75,6 +75,11 @@ img{
     width: 50vw;
   }
 
+  .rise-word{
+    background-clip: text;
+  color: transparent; /* Make the original text color transparent */
+  background-image: linear-gradient(to right, #ff0000, #d9ff5d);
+  }
   @media (max-width:50vw) {
     .block2 {
       flex-wrap: wrap;
