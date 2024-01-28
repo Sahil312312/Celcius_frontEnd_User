@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { postData } from '../Services/ServerServices';
 import './Loginpage.css'; // Make sure to adjust the path based on your project structure
 
 const App = () => {
@@ -7,6 +8,18 @@ const App = () => {
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
   };
+  const fetch_all_login_data=async()=>{
+    var body=
+      {
+    
+        "email" : "shivanigupta40392@gmail.com",
+        "password" : "shivani123"
+    
+    }
+    
+    var result= await postData('api/v1/user/login',body)
+   
+  }
 
   return (
     <div className="main">
@@ -20,7 +33,7 @@ const App = () => {
           <input type="email" name="email" placeholder="Enter Email Id" required="" />
           <input type="password" name="pswd" placeholder="Password" required="" />
           <input type="password" name="pswd" placeholder="Confirm Password" required="" />
-          <button>Sign up for CELCIUS</button>
+          <button onClick={fetch_all_login_data()}>Sign up for CELCIUS</button>
         </form>
       </div>
 
